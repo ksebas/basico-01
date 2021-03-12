@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+/* quita los botones de aumento de los inputs 
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; } */
+:root{
+  --blanco: #fcfcfc;
+  --negro:#1c1c1c;
+  --red:#b01515;
+  --azul:#1ba3f2;
+  --amarillo:#f2e93a;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body
+{
+  font-size: 16px; 
+  /*colocando esto es mas  facil usar los rem  */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titulo 
+{
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+.subtitulo
+{
+  font-size: 2rem;
+  
+}
+
+.navegacion{
+  
+}
+
+
+
+
+
+

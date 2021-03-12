@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- carga mas rapido los estilos  -->
+    <link rel="preload" href="estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>juan sebasian</h1>
+        <h1 class="titulo">juan sebasian <span class="subtitulo">Front-end</span> </h1>
     </header>
 
     <nav>
-        <a href="#">Inicio</a>
+        <a href="#">Inicio</a> 
         <a href="#">Nosotros</a>
         <a href="#">Contacto</a>
     </nav>
 
     <section>
-        <h2>Diseño y desarrollo web freelancer</h2>
+        <h2 class="subtitulo">Diseño y desarrollo web freelancer</h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="12" cy="11" r="3" />
@@ -29,7 +32,7 @@
         
     </section>
     <main>
-        <h3>Diseño web</h3>
+        <h3 class="subtitulo">Diseño web</h3>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-codesandbox" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M20 7.5v9l-4 2.25l-4 2.25l-4 -2.25l-4 -2.25v-9l4 -2.25l4 -2.25l4 2.25z" />
@@ -104,7 +107,7 @@
     </section>
 
     <footer>
-        <p>todos los derechos resevados | fake code  todos llos derechos reservados</p>
+        <p>todos los derechos resevados | fake code  todos los derechos reservados</p>
     </footer>
 </body>
 </html>
